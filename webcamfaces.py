@@ -1,7 +1,7 @@
 import cv2
 
 cap = cv2.VideoCapture(0)
-
+print("Hello world!")
 while(cap.isOpened()):
     ret, frame = cap.read()
 
